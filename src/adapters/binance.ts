@@ -1,6 +1,7 @@
 import { Trade } from 'ccxt'
+import { time } from '@magic8bot/utils'
+
 import { ExchangeAdapter, baseFields } from './base'
-import { time } from '../utils/time'
 
 export const binance: ExchangeAdapter = {
   fields: [...baseFields],

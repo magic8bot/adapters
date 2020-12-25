@@ -1,6 +1,6 @@
 {
   "name": "@magic8bot/adapters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cryptocurrency trading bot",
   "bugs": "https://github.com/magic8bot/adapters/issues",
   "license": "MIT",
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@magic8bot/db": "^2.0.6",
+    "@magic8bot/utils": "^1.0.0",
     "bottleneck": "^2.19.5",
     "ccxt": "^1.39.67"
   },

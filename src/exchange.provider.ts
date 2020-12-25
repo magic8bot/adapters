@@ -1,9 +1,9 @@
 import ccxt, { Trade } from 'ccxt'
 import { ExchangeConfig, ExchangeAuthentication } from '@magic8bot/db'
+import { sleep } from '@magic8bot/utils'
 
 import { ExchangeWrapper } from './exchange.wrapper'
 import { ExchangeErrorHandler } from './exchange.error'
-import { sleep } from './utils/async'
 
 const verbose = false
 
